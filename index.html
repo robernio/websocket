@@ -29,8 +29,9 @@
 		$(document).ready(function() {
 			log('Connecting...');
 			// Server = new FancyWebSocket('ws://localhost:9300');
-			Server = new FancyWebSocket('ws://e3tglobal.tk:443');
+			// Server = new FancyWebSocket('ws://e3tglobal.tk:443');
 			// Server = new FancyWebSocket('ws://localhost:80');
+			Server = new FancyWebSocket('ws://phpwinsocket-robernio.rhcloud.com:9300');
 
 			$('#message').keypress(function(e) {
 				if ( e.keyCode == 13 && this.value ) {

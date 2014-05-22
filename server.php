@@ -61,7 +61,8 @@ $Server->bind('close', 'wsOnClose');
 // alternatively use: gethostbyaddr(gethostbyname($_SERVER['SERVER_NAME']))
 
 //$Server->wsStartServer('127.0.0.1', 9300);
-$Server->wsStartServer('e3tglobal.tk', 443);
-// $Server->wsStartServer('127.0.0.1', 80);
+//$Server->wsStartServer('e3tglobal.tk', 443);
+//$Server->wsStartServer('127.0.0.1', 80);
+$Server->wsStartServer('phpwinsocket-robernio.rhcloud.com', 9300);
 
 ?>
